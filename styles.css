@@ -1,0 +1,40 @@
+#sketchDiv{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	border: 10px solid #F9925E;
+	border-radius: 15px;
+	width: 500px;
+	height: 500px;
+	margin: 50px auto auto auto;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+#buttonsDiv{
+	margin: auto;
+}
+
+#containerDiv{
+	display: flex;
+}
+
+body {
+	background-color:#FFDA90;
+}
+
+.sketchButtons{
+	display:block;
+	font-size: 20px;
+	background-color:#99C9E7;
+	border-radius: 10px;
+	font-family: handgloves;
+	padding: 5px 10px;
+	margin-top: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#clear{
+	margin: auto;
+}
