@@ -28,7 +28,7 @@ const createDivs = (size) => {
 
 		//adding event listener
 		div.addEventListener("mouseover", () => {
-			div.style.backgroundColor = "black";
+			div.style.backgroundColor = "#D04D48";
 		})
 	})
 }
