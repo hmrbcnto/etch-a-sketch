@@ -8,8 +8,6 @@ const createDivs = (size) => {
 	//div size 
 	const divSize = 100 / size
 
-	//sanity check
-	console.log("It's working!")
 
 	//loop for creating divs
 	for (let i = 0; i < size*size; i++){
@@ -43,7 +41,6 @@ const clearButton = () => {
 
 	//adds event to clearButton on press
 	clearButton.addEventListener("click", () => {
-		console.log("kuyawa part");
 		clearDivs();
 	})
 }
@@ -55,7 +52,7 @@ const clearDivs = () => {
 
 	//changes background color back to white
 	divs.forEach((div) => {
-		div.style.backgroundColor = "white"
+		div.style.backgroundColor = "#FFF3B5"
 	})
 }
 
